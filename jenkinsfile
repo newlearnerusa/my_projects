@@ -12,7 +12,7 @@ pipeline {
 	    stage('Cloning Git') {
 
 	      steps {
-	        git credentialsId:'GitHubCred', url:'git@github.com:/newlearnerusa/my_projects.git'
+	        git credentialsId:'git', url:'git@github.com:/newlearnerusa/my_projects.git'
 	      }
 	    }
 
